@@ -51,7 +51,7 @@ const Topbar = () => {
             <i className="fa-solid fa-bell"></i>
             <span className="topbarIconBadge">1</span>
           </div>
-          <Link to={`https://moments-frontend-sepia.vercel.app/profile/${user.username}`}>
+          <Link to={`https://moments-frontend-7at6s7jtt-ankits-projects-9c4dd148.vercel.app/profile/${user.username}`}>
             <img
               src={
                 user.profilePicture
