@@ -43,7 +43,7 @@ const Post = ({ post }) => {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <Link to={`http://localhost:3000/profile/${user.username}`}>
+            <Link to={`/profile/${user.username}`}>
               <img
                 src={user.profilePicture || PF + "person/noAvatar.png"}
                 alt=""
