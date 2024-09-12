@@ -49,7 +49,7 @@ const Share = () => {
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <Link to={`https://moments-frontend-sepia.vercel.app/profile/${user.username}`}>
+          <Link to={`https://moments-frontend-7at6s7jtt-ankits-projects-9c4dd148.vercel.app/profile/${user.username}`}>
             <img
               src={user.profilePicture || PF + "person/noAvatar.png"}
               className="shareProfileImg"
